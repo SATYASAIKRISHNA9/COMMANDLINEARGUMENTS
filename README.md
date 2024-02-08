@@ -53,7 +53,7 @@ To match first 2 columns and placing 2nd column first and 1st column second.
 
 
 
-## awk commands
+## AWK COMMANDS
 
 
 ```````````````````````````````````````````````````````````````
@@ -61,7 +61,14 @@ To match first 2 columns and placing 2nd column first and 1st column second.
 2nd part -- It will grep words and invert match of "0"
 3rd part -- Gives the lines which are not beginning with space.
 
-#### awk 'NR==65, NR==312 {print $2,$22,$24}' file_name.txt| grep -w -v "0" | grep -v "^\s"
+############### awk 'NR==65, NR==312 {print $2,$22,$24}' file_name.txt| grep -w -v "0" | grep -v "^\s"  ##############
+
+if we want to print only 3rd column.
+
+############### awk '{print $3}' ################
+
+
+
 
 
 ``````````````````````````````````````````````````````````````````
@@ -70,3 +77,25 @@ To match first 2 columns and placing 2nd column first and 1st column second.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+## GREP COMMANDS
+
+
+``````````````````````````````````````````````````````
+if we want to grep different patterns at a time we can use below command.
+
+grep -E "pattern1|pattern2"
+
+``````````````````````````````````````````````````````
