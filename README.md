@@ -127,10 +127,10 @@ if we want to grep different patterns at a time we can use below command.
 ## SED COMMANDS
 
 
-```````````````````````````````````````````````````````````
+``````````````````````````````````````````````````````````````````````````````````````````````
 I want to fetch few lines between pattern1 and pattern2. We are redirecting it to file so console will not be messy and we can do our requirements from file.
 
 -->  sed -n '/pattern1/,/pattern2/p' file_name > new_file.txt
 
 
-```````````````````````````````````````````````````````````
+```````````````````````````````````````````````````````````````````````````````````````````````
