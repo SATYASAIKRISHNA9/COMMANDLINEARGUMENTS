@@ -64,7 +64,7 @@ To match first 2 columns and placing 2nd column first and 1st column second.
 #### awk 'NR==65, NR==312 {print $2,$22,$24}' file_name.txt| grep -w -v "0" | grep -v "^\s"
 
 
-```````````````````````````````````````````````````````````````
+``````````````````````````````````````````````````````````````````
 
 
 
