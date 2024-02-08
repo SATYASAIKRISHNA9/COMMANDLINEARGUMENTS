@@ -48,3 +48,25 @@ To match first 2 columns and placing 2nd column first and 1st column second.
 
 
 
+
+
+
+
+
+## awk commands
+
+
+```````````````````````````````````````````````````````````````
+1st part -- Below command will fetch lines from line number 65 to line number 312 from file file_name.txt and prints only 2nd, 22nd and 24th column.
+2nd part -- It will grep words and invert match of "0"
+3rd part -- Gives the lines which are not beginning with space.
+
+#### awk 'NR==65, NR==312 {print $2,$22,$24}' file_name.txt| grep -w -v "0" | grep -v "^\s"
+
+
+```````````````````````````````````````````````````````````````
+
+
+
+
+
