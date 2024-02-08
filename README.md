@@ -12,6 +12,8 @@ GREP, AWK, SED, gvim and other commands
 
 
 To make default font in gvim create .gvimrc file in home directory and copy below content.
+
+
 ````````````````````````````````````````````
 set hlsearch
 set ignorecase
